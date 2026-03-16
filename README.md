@@ -23,3 +23,6 @@ Primeiramente precisamos saber se o computador possui o JDK(Java Development Kit
 O Java funciona compilando o código-fonte `.java` em um formato médio chamado bytecode `.class`, que não é específico de uma máquina, . Esse bytecode é executado pela Java Virtual Machine (JVM) em qualquer sistema operacional, garantindo a portabilidade 
 
 `- Bytecode  é um formato intermediário de código, mais próximo da máquina do que o código-fonte humano (como Java ou Python), mas não é código de máquina nativo `
+
+
+- Para executar código Java no terminal do VS Code quando o botão "Run" falha, use os comandos  `javac` (compilar) e `java` (executar) diretamente no terminal integrado (`Ctrl + '` ou `Ctrl + J`). Certifique-se de estar na pasta correta do arquivo e que o JDK esteja instalado e configurado nas variáveis de ambiente.
