@@ -26,3 +26,16 @@ O Java funciona compilando o código-fonte `.java` em um formato médio chamado 
 
 
 - Para executar código Java no terminal do VS Code quando o botão "Run" não funcionar, devemos usar os comandos  `javac` (compilar) e `java` (executar) diretamente no terminal . Temos que certificar de estarmos na pasta correta do arquivo e que o JDK esteja instalado e configurado nas variáveis de ambiente.
+
+
+## Anotações aula 4
+
+== -> igual 
+=== -> estritamente igual
+=> ou <= --> maior igual ou menor igual
+|| -> ou
+&& -> e
+
+0 || 1 -> 1 bit
+8 bits -> 1 Byte
+
