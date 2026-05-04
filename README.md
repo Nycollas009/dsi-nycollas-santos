@@ -25,7 +25,7 @@ O Java funciona compilando o código-fonte `.java` em um formato médio chamado 
 `- Bytecode  é um formato intermediário de código, mais próximo da máquina do que o código-fonte humano (como Java ou Python), mas não é código de máquina nativo `
 
 
-- Para executar código Java no terminal do VS Code quando o botão "Run" não funcionar, devemos usar os comandos  `javac` (compilar) e `java` (executar) diretamente no terminal . Temos que certificar de estarmos na pasta correta do arquivo e que o JDK esteja instalado e configurado nas variáveis de ambiente.
+- Para executar código Java no terminal do VS Code quando o botão "Run" não funcionar, devemos usar os comandos  `javac` (compilar) e `java` (executar) diretamente no terminal . Temos que certificar de estarmos na pasta correta   do arquivo e que o JDK esteja instalado e configurado nas variáveis de ambiente.
 
 
 ## Anotações aula04
@@ -42,3 +42,12 @@ O Java funciona compilando o código-fonte `.java` em um formato médio chamado 
 
 ## Anotações aula05
 Java Casting é o processo de converter um tipo de dado em outro (primitivo ou objeto). Ele permite tratar uma variável como um tipo diferente, sendo fundamental para manipular dados com herança ou alterar precisão numérica. Divide-se em implícito (automático para tipos maiores, ou widening) e explícito (manual para tipos menores, ou narrowing, podendo perder dados).
+
+# Anotações aula06
+== -> igual a  a == A -> True
+
+=== -> igual a  a === A -> False
+
+=! diferente de a =! A -> False
+
+==! -> diferente  a ==! A -> True
