@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Exercicio1 {
 
     public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in) .useLocale(Locale.US); // Essa linha degine o local como US para aceitar pontos em vez de vírgulas nos numeros decimais
+      Scanner scanner = new Scanner(System.in) .useLocale(Locale.US); // Essa linha define o local como US para aceitar pontos em vez de vírgulas nos numeros decimais
 
       System.out.print("Digite o nome do funcionário: "); // entrada e leitura de dados
       String nomeFuncionario = scanner.nextLine();
