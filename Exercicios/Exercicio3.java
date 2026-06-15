@@ -40,7 +40,7 @@ public class Exercicio3 {
 
         // Verificação da existência e do tipo de triângulo
         if ( a>= b + c){
-            System.out.println("Mensagem: Não formam triângulo algum.")
+            System.out.println("Mensagem: Não formam triângulo algum.");
         } else {
             //Verificação quanto aos angulos
 
