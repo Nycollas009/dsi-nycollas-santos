@@ -7,7 +7,7 @@ public class Exercicio2 {
         
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US); // define de virgula pra decimal mudando o locale
 
-        // entrada e leitura de DADOS
+        
         System.out.print("Digite o código do funcionário: ");
         int codigoFuncionario = scanner.nextInt();
 
@@ -20,7 +20,7 @@ public class Exercicio2 {
         System.out.print("Digite o sálario atual (R$): " );
         double salario = scanner.nextDouble();
 
-        //Cáculo do bonus variando o tempo e sexo
+       
         double bonus = 0.0;
 
 
@@ -32,7 +32,7 @@ public class Exercicio2 {
             bonus = 100.00;
         }
 
-        // 4. Exibição dos resultados
+        
         System.out.println("\n=========================================");
         System.out.println("          RECIBO DE BONUS DE NATAL       ");
         System.out.println("=========================================");
